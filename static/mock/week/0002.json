@@ -1,0 +1,42 @@
+{
+   "data": {
+      "weekInfo": [
+         {
+            "desc": "急流险滩，龙景峡谷",
+            "title": "东江湖",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/c2/c27514a93e8b8392.water.jpg_600x330_f45a3b19.jpg",
+            "price": 80
+         },
+         {
+            "desc": "天下故乡，中国德夯",
+            "title": "德夯苗寨",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1503/46/4639516f1348047f.water.jpg_600x330_c86b005e.jpg",
+            "price": 67
+         },
+         {
+            "desc": "天门山国家森林公园",
+            "title": "穿越云霄的旅行",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1802/40/40b2075640718d7a3.img.png_600x330_11cd3f65.png",
+            "price": 49.5
+         },
+         {
+            "desc": "急流险滩，龙景峡谷",
+            "title": "东江湖",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/c2/c27514a93e8b8392.water.jpg_600x330_f45a3b19.jpg",
+            "price": 80
+         },
+         {
+            "desc": "天下故乡，中国德夯",
+            "title": "德夯苗寨",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1503/46/4639516f1348047f.water.jpg_600x330_c86b005e.jpg",
+            "price": 67
+         },
+         {
+            "desc": "天门山国家森林公园",
+            "title": "穿越云霄的旅行",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1802/40/40b2075640718d7a3.img.png_600x330_11cd3f65.png",
+            "price": 49.5
+         }
+      ]
+   }
+}

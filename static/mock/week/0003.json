@@ -1,0 +1,42 @@
+{
+   "data": {
+      "weekInfo": [
+         {
+            "desc": "充满野趣和粗犷阳刚之美",
+            "title": "红石林",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1509/b9/b9a176b052c30883.water.jpg_600x330_7da1fccf.jpg",
+            "price": 100
+         },
+         {
+            "desc": "邂逅数个人，偶遇一座城",
+            "title": "凤凰古城",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1605/58/5847560fd55ff6f590.water.jpg_600x330_31cca50c.jpg",
+            "price": 45
+         },
+         {
+            "desc": "隐逸于武陵山脉，穿越浑然天成的特种游道",
+            "title": "坐龙峡风景区",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/201301/05/c6c7d2d53b8d260a93835fbb.png_600x330_763b7621.png",
+            "price": 70
+         },
+         {
+            "desc": "充满野趣和粗犷阳刚之美",
+            "title": "红石林",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1509/b9/b9a176b052c30883.water.jpg_600x330_7da1fccf.jpg",
+            "price": 100
+         },
+         {
+            "desc": "邂逅数个人，偶遇一座城",
+            "title": "凤凰古城",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1605/58/5847560fd55ff6f590.water.jpg_600x330_31cca50c.jpg",
+            "price": 45
+         },
+         {
+            "desc": "隐逸于武陵山脉，穿越浑然天成的特种游道",
+            "title": "坐龙峡风景区",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/201301/05/c6c7d2d53b8d260a93835fbb.png_600x330_763b7621.png",
+            "price": 70
+         }
+      ]
+   }
+}

@@ -1,0 +1,32 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "柏乐园",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1412/84/59a55aa2632a3104e3c527301def622f.water.jpg_600x330_d9fbdace.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1412/84/59a55aa2632a3104e3c527301def622f.water.jpg_r_800x800_620fb2e1.jpg",
+       "http://img1.qunarzz.com/sight/p0/1412/31/c14cb82280a4e90bb5ec105512733359.water.jpg_r_800x800_be82d464.jpg",
+       "http://img1.qunarzz.com/sight/p0/1412/32/403334d7e1a848649e3140d19ef54b0b.water.jpg_r_800x800_6df4aad5.jpg"],
+      "cardInfo":{
+        "score":4.8,
+        "comment":602,
+        "address":"湖南省长沙市望城县乔口镇",
+        "desc":"超赞",
+        "walkthrough":6
+      },"recommendInfo":[{
+        "title":"橘子洲湘江游船+观光车+乐游小食套餐成人票(夜游 20:00起航)(20:00起航 赠乐游小食套餐)",
+        "time":"19:30前随买随用",
+        "price":150,
+        "type":"预订"
+      },{
+        "title":"【无线耳麦+辛追挂饰+9折券】省博+橘子洲+湘江游轮+岳麓山",
+        "time":"23:00前可订明日",
+        "price":89,
+        "type":"查看"
+      },{
+        "title":"【16:00班次】湘江游轮成人票（含橘子洲观光车通票）",
+        "time":"可订明日",
+        "price":140,
+        "type":"预订"
+      }]
+  }
+}

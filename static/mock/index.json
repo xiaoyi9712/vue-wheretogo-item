@@ -1,0 +1,124 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20201/be6871c9b0b0ffab3ef2a86fa9688677.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201912/0b26e9760c2673c63c05e1efce1275ea.jpg_750x200_495c0a72.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/87a224d0349d94a11e97f31aa1aba4f5.jpg_750x200_1f78af87.jpg"
+      },{
+        "id": "0004",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/5cfb89bebe41028d9b6732bcbe959cd6.jpg_750x200_4eb23790.jpg"
+      },{
+        "id": "0005",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/fd8c3e553ad9196058853d015bd67d29.jpg_750x200_2c5b094a.jpg"
+      }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+        "desc": "泡温泉"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/89/55083b0f1951f302.png",
+        "desc": "两江夜游"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/de711920c71e38287d9f95f7910aa1aa.png",
+        "desc": "精品小团"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
+        "desc": "神秘武隆"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/338c5b924c5809e8c7b14f60a953c3e2.png",
+        "desc": "重庆欢乐谷"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/b71c1387a921ccf9c6edc7e8def3da90.png",
+        "desc": "重庆动物园"
+      }, {
+        "id": "0009",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/5d502c0984b223bfeed0aac5ecdc7a99.png",
+        "desc": "黑山谷"
+      }, {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/87/20656da0ac042002.png",
+        "desc": "玻璃桥"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "score":4.7,
+        "comment":998,
+        "price":228,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1411/d6/54b2e2165f7c9074e44286e64cb04f83.water.jpg_200x200_e1a6c2ac.jpg",
+        "title": "重庆解放碑"
+      }, {
+        "id": "0002",
+        "score":4.8,
+        "comment":75,
+        "price":238,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1905/11/113fc6e5d80750c9a3.img.jpg_200x200_2c11dd66.jpg",
+        "title": "李子坝轻轨站"
+      }, {
+        "id": "0003",
+        "score":4.3,
+        "comment":107,
+        "price":350,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1502/c5/c5500be13ef5ba29.water.jpg_200x200_36176799.jpg",
+        "title": "安居古城"
+      }, {
+        "id": "0004",
+        "score":4.8,
+        "comment":48,
+        "price":48,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1701/3b/3b0a0a09ff19de9ca3.img.jpg_200x200_5fc2d2f5.jpg",
+        "title": "茅草坝滑雪场"
+      }, {
+        "id": "0005",
+        "score":4.2,
+        "comment":58,
+        "price":50,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1711/71/716d25896ab78112a3.img.jpg_200x200_310e3afd.jpg",
+        "title": "重庆彩色森林景区"
+      }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1812/4c/33ad31d025fef.jpg_r_640x214_7821b813.jpg",
+        "title": "重庆夜景大赏",
+        "desc": "享巴渝特色，赏两江风光，感受不一样的重庆夜景！"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/5f/276ed6784d25ee.jpg_r_640x214_2193082e.jpg",
+        "title": "重庆优质汤泉",
+        "desc": "细数重庆那些最赞的温泉"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/53/4bcd11cc3a5374.jpg_r_640x214_988a4cee.jpg",
+        "title": "重庆必打卡",
+        "desc": "重庆，非去不可"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/48/f117e9b3bf582a.jpg_r_640x214_b8145711.jpg",
+        "title": "重庆大美古镇",
+        "desc": "行走重庆最美古镇，让你瞬间穿越千年"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1506/1e/f97881dbd07520.jpg_r_640x214_f8c25916.jpg",
+        "title": "本地人带你耍",
+        "desc": "玩转小面之都，High翻天"
+      }]
+  }
+}

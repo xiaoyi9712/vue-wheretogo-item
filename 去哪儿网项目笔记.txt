@@ -1,0 +1,121 @@
+
+移动端用rem单位,不用px像素单位,
+看html标签的font-size是多少px,那么这多少px就是1 rem单位.
+
+minimum-scale=1.0,maximum-scale=1.0,user-scalable='no'
+
+移动端要在index.html中meta标签中content中加入配置这三条minimum-scale=1.0,maximum-scale=1.0,user-scalable='no'
+
+style有3种css预处理器 less sass stylus
+
+改路径如@啥的  修改build/webpack.base.conf的第30行
+
+穿透 .swiper >>> .swiper-pagination-bullet-active{
+    background-color:#fff;
+}
+
+swiper不能循环轮播解决办法
+给swiper加上v-if="this.swiperList.length>0"
+
+规定axios返回来的数据格式
+axios.interceptors.response.use(function (response) {
+    return response.data.data;
+  });
+
+管道修饰符
+:style="item.score|star"//|左侧是右侧star函数的参数
+
+疑问点;
+1 display:fixed&flex
+2 for in循环
+3 slot插槽
+
+获取元素节点.打上ref="xxx",然后this.$refs.xxx即可
+<div ref="wrapper"></div>
+this.$refs.wrapper
+
+获取不到this.$refs.xxx
+
+所以在 mounted 钩子中使用 $refs，如果 ref 是定位在有 v-if、v-for、v-show 的 DOM 节点中，返回来的只能是 undefined，因为在 mounted 阶段他们根本不存在。
+
+解决
+
+使用$nextTick
+Vue 实现响应式并不是数据发生变化之后 DOM 立即变化，而是按一定的策略进行 DOM 的更新。
+$nextTick 是在下次 DOM 更新循环结束之后执行延迟回调，在修改数据之后使用 $nextTick，则可以在回调中获取更新后的 DOM
+
+
+手机下拉刷新那种弹的效果
+better-scroll
+使用方法
+1 npm安装
+2 组件导入
+3 mounted(){
+        this.scroll = new BScroll(this.$refs.wrapper)//必须是里面的一个盒子比父级该盒子高
+    }
+
+大盒子包括内部默认不能出发点击事件,
+解决办法
+this.scroll = new BScroll(this.$refs.wrapper,{
+	click:true
+})
+
+跳字母表
+this.scroll.scrollToElement()//跳到指定的dom元素节点
+
+公用组件单独放置common
+
+子组件控制父组件/向父组件传值:
+子组件this.$emit("close")//事件名字close
+父组件@close="handleClose"父组件一旦监听到close事件就触发handleClose函数
+
+轮播图父子组件传值后不能正常划
+swiperOption:{
+                pagination: {
+                    el: '.swiper-pagination',
+                    type:'fraction'
+                },
+                observeParents:true,
+                observer:true
+            }
+在组件激活状态下触发函数//<keep-alive></keep-alive>
+activated(){
+        window.addEventListener('scroll',this.handleScroll)
+    }//监听滚轮事件,触发handleScroll函数
+deactivated(){
+  window.removeaddEventListener('scroll',this.handleScroll)
+}
+
+methods:{
+   handleScroll(){
+	//滚轮高度标记下来
+	let scrollTop = document.documentElement.scrollTop
+   }
+}
+
+keep-alive这个组件内部的某个组件显示就是某个组件被激活,会执行activated函数,没显示就是失去活性,就会触发deactivated函数
+已经缓存的数据中生命周期函数不会执行
+但是activated deactivated这两个函数会执行,前提是有<keep-alive></keep-alive>这个组件
+
+
+transition全局组件
+<template>
+    <div class="fadeanimation">
+        <transition>
+            <slot></slot>
+        </transition>
+    </div>
+</template>
+
+<script>
+export default {
+    name:'FadeAnimation'
+}
+</script>
+<style lang='stylus' scoped>
+//默认两条配置 如果想给v改名字就在transition组件加name属性
+.v-enter,.v-leave-to
+    opacity:0
+.v-enter-active,.v-leave-active
+    transition:opacity .5s
+</style>

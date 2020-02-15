@@ -1,0 +1,42 @@
+{
+   "data": {
+      "weekInfo": [
+         {
+            "desc": "到此散心、品尝小吃，感受古朴气息",
+            "title": "靖港古镇",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1412/68/42da26a54c27a3c237b4d10a61583c36.water.jpg_350x240_7f99e17b.jpg",
+            "price": 70
+         },
+         {
+            "desc": "历史已逾千年，是世所罕见的“千年学府”",
+            "title": "岳麓书院",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/201403/10/df3482c04dfdeba340e588d9ca97bb88.jpg_600x330_b0da71bb.jpg",
+            "price": 0.8
+         },
+         {
+            "desc": "《沁园春•长沙》中的橘子洲头",
+            "title": "橘子洲",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/57/579b6c97900745db.water.jpg_600x330_a7a104d2.jpg",
+            "price": 138
+         },
+         {
+            "desc": "到此散心、品尝小吃，感受古朴气息",
+            "title": "靖港古镇",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1412/68/42da26a54c27a3c237b4d10a61583c36.water.jpg_350x240_7f99e17b.jpg",
+            "price": 70
+         },
+         {
+            "desc": "历史已逾千年，是世所罕见的“千年学府”",
+            "title": "岳麓书院",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/201403/10/df3482c04dfdeba340e588d9ca97bb88.jpg_600x330_b0da71bb.jpg",
+            "price": 0.8
+         },
+         {
+            "desc": "《沁园春•长沙》中的橘子洲头",
+            "title": "橘子洲",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/57/579b6c97900745db.water.jpg_600x330_a7a104d2.jpg",
+            "price": 138
+         }
+      ]
+   }
+}
